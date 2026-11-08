@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_button_ghost"
+            android:contentDescription="@string/hv_back"
             android:paddingHorizontal="14dp"
             android:text="←"
             android:textColor="@color/hv_text"
@@ -31,7 +32,7 @@
             android:layout_weight="1"
             android:layout_marginStart="12dp"
             style="@style/TextVox.Title"
-            android:text="Wake word (preview)" />
+            android:text="@string/wake_enrol_title" />
     </LinearLayout>
 
     <ScrollView
@@ -75,7 +76,7 @@
                     android:layout_height="48dp"
                     android:layout_marginTop="12dp"
                     android:background="@drawable/bg_button_primary"
-                    android:text="I agree — keep my recordings on this phone"
+                    android:text="@string/wake_enrol_consent"
                     android:textColor="@color/hv_bg"
                     android:textSize="15sp" />
             </LinearLayout>
@@ -129,7 +130,7 @@
                 android:layout_height="52dp"
                 android:layout_marginTop="12dp"
                 android:background="@drawable/bg_button_primary"
-                android:text="Record"
+                android:text="@string/wake_enrol_record"
                 android:textColor="@color/hv_bg"
                 android:textSize="16sp" />
 
@@ -139,7 +140,7 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/bg_button_ghost"
-                android:text="Delete all my recordings"
+                android:text="@string/wake_enrol_delete"
                 android:textColor="@color/hv_text"
                 android:textSize="14sp" />
         </LinearLayout>
